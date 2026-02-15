@@ -39,17 +39,12 @@ if (document.querySelector('#hamb')) {
     });
   }
 */
-document.addEventListener('DOMContentLoaded', function() {
-
-  const popup = document.querySelector('.popup');
-
-  document.querySelectorAll('.modal_writebtn_wrap').forEach(btn => {
-    btn.addEventListener('click', function() {
-      popup.classList.remove("open");
-      console.log(111);
-    });
-  });
-
+document.addEventListener('click', function(e) {
+  if (e.target.closest('.modal_writebtn_wrap')) {
+    const popup = document.querySelector('.popup');
+    popup.classList.remove('open');
+    console.log(111);
+  }
 });
 
 
@@ -349,4 +344,5 @@ document.addEventListener('click', function (e) {
     select.dataset.value = item.dataset.value;
     select.classList.remove('open');
   }
+
 });
