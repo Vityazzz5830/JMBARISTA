@@ -1767,3 +1767,7 @@ footer{
   width: 22px;
 }
 
+.burger_content_container > a:nth-child(1) {
+  width: fit-content;
+}
+
