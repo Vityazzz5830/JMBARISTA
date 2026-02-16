@@ -1337,11 +1337,11 @@ position: relative;
 }
 
 #modal_cont2 {
-transform: translate(-50%, -30%);
+transform: translate(-50%, -29.5%);
 }
 
-#modal_cont1 {
-transform: translate(-50%, -30%);
+#modal_cont {
+transform: translate(-50%, -48%);
 }
 
 .modal_content_container {
@@ -1371,3 +1371,4 @@ transform: translate(-50%, -30%);
 
 
 }
+
