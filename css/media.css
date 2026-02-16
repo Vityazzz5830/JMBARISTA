@@ -1323,18 +1323,7 @@ position: relative;
   line-height: 1.45;
 }
 
-.iti:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) {
-  display: none !important;
-}
 
-.iti:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) {
-  display: none !important;
-}
-
-
-#phone {
-  padding-left: 80px;
-}
 
 #modal_cont {
 	transform: translate(-50%);
@@ -1372,3 +1361,4 @@ position: relative;
 
 
 }
+
